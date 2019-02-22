@@ -1,0 +1,374 @@
+---- exit Matches (373 in 37 files) ----
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(0);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench_cascade.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(0);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Bench_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(base, &tv);
+Check-dumpevents.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):    sys.exit(1)
+Check-dumpevents.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):    sys.exit(1)
+Check-dumpevents.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):    sys.exit(1)
+Check-dumpevents.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):    sys.exit(1)
+Dns-example.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):			exit(1);
+Dns-example.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):			exit(1);
+Dns.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * exiting when we have no active dns requests. */
+Epoll.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):				/* we need to exit immediately; timerfd can't
+Event-read-fifo.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):			exit(1);
+Event-read-fifo.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):		exit(1);
+Event-read-fifo.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):		exit(1);
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable): * Wait continuously for events.  We exit only if no events are left.
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):/** Callback: used to implement event_base_loopexit by telling the event_base
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable): * that it's time to exit its loop. */
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):event_loopexit_cb(evutil_socket_t fd, short what, void *arg)
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):event_loopexit(const struct timeval *tv)
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	return (event_once(-1, EV_TIMEOUT, event_loopexit_cb,
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):event_base_loopexit(struct event_base *event_base, const struct timeval *tv)
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	return (event_base_once(event_base, -1, EV_TIMEOUT, event_loopexit_cb,
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):event_base_got_exit(struct event_base *event_base)
+Event.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):		/* If we have no events, we just exit */
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  event_base_loopexit().
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @return 0 if successful, -1 if an error occurred, or 1 if we exited because
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * condition, other than a pending event, that keeps the loop from exiting. */
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): By default, Libevent will call exit(1) if a programming error makes it
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):/** Block until we have an active event, then exit once all active events
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * of the highest-priority ones, then exit. */
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):/** Do not exit the loop because we have no pending events.  Instead, keep
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * running until event_base_loopexit() or event_base_loopbreak() makes us
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  event_base_loopexit().  You can override this behavior with the 'flags'
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @return 0 if successful, -1 if an error occurred, or 1 if we exited because
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @see event_base_loopexit(), event_base_dispatch(), EVLOOP_ONCE,
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  complete normally (handling all queued events) then exit without
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    or NULL to exit after running all currently active events.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):int event_base_loopexit(struct event_base *, const struct timeval *);
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @see event_base_loopexit()
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  Checks if the event loop was told to exit by event_base_loopexit().
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  event_loopexit() is called, until the event loop is next entered.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @return true if event_base_loopexit() was called on this event base,
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @see event_base_loopexit()
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):int event_base_got_exit(struct event_base *);
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @see event_base_got_exit()
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):      callback function if the loop exited early.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    It is not actually necessary to call this function before exit: every
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    resource that it frees would be released anyway on exit.  It mainly exists
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    resources at exit.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    be invoked -- e.g., when cleanly exiting a program.
+Event_compat.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  This function behaves like event_base_loopexit(), except that it uses the
+Event_compat.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    use.  The replacement is event_base_loopexit().
+Event_compat.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @see event_init, event_base_loopexit()
+Event_compat.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):int event_loopexit(const struct timeval *);
+Event_iocp.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	event_warnx("GetQueuedCompletionStatus exited with no event.");
+Event_rpcgen.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):        sys.exit(0)
+Event_rpcgen.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):        sys.exit(1)
+Event_rpcgen.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):            sys.exit(1)
+Event_rpcgen.py (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):            sys.exit(1)
+Hello-world.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):  Where possible, it exits cleanly in response to a SIGINT (ctrl-c).
+Hello-world.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):	printf("Caught an interrupt signal; exiting cleanly in two seconds.\n");
+Hello-world.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):	event_base_loopexit(base, &delay);
+Http-server.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):		fprintf(stderr, "Couldn't create an event_base: exiting\n");
+Https-client.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):	exit(1);
+Le-proxy.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\sample):	exit(1);
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):static void event_exit(int errcode) EV_NORETURN;
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):event_exit(int errcode)
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):		exit(errcode); /* should never be reached */
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):		exit(errcode);
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	event_exit(eval);
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	event_exit(eval);
+Log.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):	event_exit(eval);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg->eb, NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		/* call loopexit only once - on slow machines(?), it is
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(global_base, NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(data->base, &msec50);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	struct timeval tv, tv2, tv_exit, start;
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	tv_exit.tv_sec = 0;
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	tv_exit.tv_usec = 600 * 1000;
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv_exit);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(test_ok != 0 || called != 2 ? -2 : 76);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		fprintf(stdout, "FAILED (exit): %d\n", WEXITSTATUS(status));
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_loopexit(NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(data->base, &qsec);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		tt_abort_msg("unsuccessful exit from event loop");
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):test_loopexit(void)
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	setup_test("Loop exit: ");
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(&tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	tt_assert(event_base_got_exit(global_base));
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):test_loopexit_multiple(void)
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	setup_test("Loop Multiple exit: ");
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	tt_assert(event_base_got_exit(base));
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	tt_assert(!event_base_got_exit(global_base));
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_loopexit(NULL);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		/* Two is called once because event_loopexit is priority 1 */
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(&tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	/* Use an empty cfg rather than NULL so a failure doesn't exit() */
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(data->base, &tv);
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	LEGACY(loopexit, TT_ISOLATED),
+Regress.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	LEGACY(loopexit_multiple, TT_ISOLATED),
+Regress_buffer.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(addfile_test_event_base,NULL);
+Regress_buffer.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(addfile_test_event_base,NULL);
+Regress_buffer.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(addfile_test_event_base,NULL);
+Regress_buffer.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(addfile_test_event_base,NULL);
+Regress_bufferevent.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(base, NULL);
+Regress_bufferevent.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress_bufferevent.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(data->base, &tv_r);
+Regress_bufferevent.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(base, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_loopexit(NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit((struct event_base *)arg, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_loopexit(NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct event_base *exit_base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct evdns_server_port *exit_port;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		if (exit_port) {
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			evdns_close_server_port(exit_port);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit_port = NULL;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(exit_base, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(exit_base, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit_port = dns_port;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	if (exit_port) {
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		evdns_close_server_port(exit_port);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit_port = NULL;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	/* don't do anything with the socket; let it close when we exit() */
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(be_connect_hostname_base,
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				event_base_loopexit(be_connect_hostname_base,
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct event_base *exit_base_on_no_pending_results = NULL;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	if (--n_gai_results_pending <= 0 && exit_base_on_no_pending_results)
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(exit_base_on_no_pending_results, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	n_gai_results_pending = 10000; /* don't think about exiting yet. */
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base_on_no_pending_results = data->base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(status->base, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(base, NULL);
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_dns.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):/* set if a test needs to call loopexit on a base */
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct event_base *exit_base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		if (exit_base)
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			event_base_loopexit(my_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			fprintf(stderr, "No way to exit loop!\n");
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(exit_base, &tv);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	EVUTIL_ASSERT(exit_base);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	EVUTIL_ASSERT(exit_base);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, &tv);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base,NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base,NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg,NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(arg, NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(state->base,NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(state->base,NULL);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(exit_base, &tv);
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_http.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Regress_main.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(NULL);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(NULL);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(NULL);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_loopexit(NULL);
+Regress_rpc.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_loopexit(NULL);
+Regress_ssl.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct event_base *exit_base = NULL;
+Regress_ssl.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				event_base_loopexit(exit_base, NULL);
+Regress_ssl.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit_base = data->base;
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	/* exit the loop only if all threads fired all timeouts */
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(base, NULL);
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv);
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):				exit(1);
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):static struct event_base *exit_base = NULL;
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopbreak(exit_base);
+Regress_thread.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit_base = data->base;
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):fatalfn(int exitcode)
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(0);
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(exitcode);
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):check_error_logging(void (*fn)(void), int wantexitcode,
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	int status = 0, exitcode;
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(0); /* should be unreachable. */
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exitcode = WEXITSTATUS(status);
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		tt_int_op(wantexitcode, ==, exitcode);
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	 * actually exit.  Now, it exits no matter what, so if we wan to
+Regress_util.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-changelist.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	FILETIME createtime, exittime;
+Test-changelist.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	r = GetThreadTimes(timer->thread, &createtime, &exittime,
+Test-changelist.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	FILETIME createtime, exittime, usertimeEnd, kerneltimeEnd;
+Test-changelist.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	r = GetThreadTimes(timer->thread, &createtime, &exittime,
+Test-closed.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-closed.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(1);
+Test-eof.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(1);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):   If MAX_REQUESTS have been reached, exit. Otherwise, start another client. */
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(2);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(2);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(2);
+Test-fdleak.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(3);
+Test-ratelim.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	event_base_loopexit(base, &tv);
+Test-ratelim.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		event_base_loopexit(base, &tv);
+Thread.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * makes one of several common locking errors, exit with an assertion failure.
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	DWORD exitcode;
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	GetExitCodeProcess(info.hProcess, &exitcode);
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	if (exitcode == 0)
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	else if (exitcode == MAGIC_EXITCODE)
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):			exit(1);
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(0);
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):		exit(outcome==OK ? 0 : (outcome==SKIP?MAGIC_EXITCODE : 1));
+Tinytest.c (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\test):	exit(0);
+Whatsnew-2.0.txt (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):         exit(1);
+Whatsnew-2.1.txt (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):  event_base_loop() will exit as soon as no events are pending.)
+Whatsnew-2.1.txt (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):  globally held resources before exiting, so that your leak-check tools
+Whatsnew-2.1.txt (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):  your process exit()s.  If you aren't using a leak-checking tool, there
+Whatsnew-2.1.txt (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable):  exiting while it has no DNS requests in progress.

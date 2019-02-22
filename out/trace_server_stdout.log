@@ -1,0 +1,718 @@
+[fun: _usage] [line: 66] : 
+------------------------------
+[fun: _usage] [line: 67] : 	 trace_server version: 1.0.0
+[fun: _usage] [line: 68] : 	 GMT date: 2018-12-21 05:33:01 0
+
+[fun: _usage] [line: 69] : 	 server port: 65530
+[fun: _usage] [line: 70] : 	 client timeout: 35 sec
+[fun: _usage] [line: 71] : 	 listen max count: 1000
+[fun: _usage] [line: 72] : 	 thread pool size: 2048
+[fun: _usage] [line: 73] : ------------------------------
+[fun: _delay] [line: 8] : please wait 3 sec .
+[fun: _delay] [line: 8] : please wait 2 sec .
+[fun: _delay] [line: 8] : please wait 1 sec .
+[fun: main] [line: 94] : 
+------ loop start ------
+[fun: _repeat_init] [line: 28] : repeat init server.
+[fun: _create_server] [line: 20] : create server success.
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 10 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 8 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 4 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 2 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: _ev_timer_callback] [line: 60] : client timeout(35 sec) and stoped event base for client [client_fd: 25].
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 3 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 1 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: _ev_timer_callback] [line: 60] : client timeout(35 sec) and stoped event base for client [client_fd: 9].
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: display_worker_counts] [line: 207] : 
+[fun: display_worker_counts] [line: 208] : --------------------------------
+[fun: display_worker_counts] [line: 210] : - there are 2 worker thread .
+[fun: display_worker_counts] [line: 211] : --------------------------------
+[fun: display_worker_counts] [line: 212] : 
+[fun: display_client_count] [line: 257] : 
+[fun: display_client_count] [line: 258] : --------------------------------
+[fun: display_client_count] [line: 260] : - there are 0 client connection .
+[fun: display_client_count] [line: 261] : --------------------------------
+[fun: display_client_count] [line: 262] : 
+[fun: _usage] [line: 94] : 
+------------------------------
+[fun: _usage] [line: 95] : 	 trace_server version: 1.0.0
+[fun: _usage] [line: 96] : 	 GMT date: 2018-12-21 05:41:49 0
+
+[fun: _usage] [line: 97] : 	 server port: 65530
+[fun: _usage] [line: 98] : 	 client timeout: 35 sec
+[fun: _usage] [line: 99] : 	 listen max count: 1000
+[fun: _usage] [line: 100] : 	 thread pool size: 2048
+[fun: _usage] [line: 101] : ------------------------------
+[fun: _delay] [line: 8] : please wait 3 sec .
+[fun: _delay] [line: 8] : please wait 2 sec .
+[fun: _usage] [line: 97] [tick_sec: 0]: 
+[fun: _usage] [line: 98] [tick_sec: 0]: ------------------------------------------------------
+[fun: _usage] [line: 99] [tick_sec: 0]: 	 trace_server version: 1.0.1
+[fun: _usage] [line: 100] [tick_sec: 0]: 	 current date: 2018-12-23 14:21:05 0
+[fun: _usage] [line: 101] [tick_sec: 0]: 	 server port: 9110
+[fun: _usage] [line: 102] [tick_sec: 0]: 	 client timeout: 35 sec
+[fun: _usage] [line: 103] [tick_sec: 0]: 	 listen max count: 1024
+[fun: _usage] [line: 104] [tick_sec: 0]: 	 thread pool size: 2048
+[fun: _usage] [line: 105] [tick_sec: 0]: 	 server thread pool size: 2038
+[fun: _usage] [line: 106] [tick_sec: 0]: ------------------------------------------------------
+[fun: _usage] [line: 107] [tick_sec: 0]: 
+[fun: _usage] [line: 127] [tick_sec: 0]: 
+[fun: _usage] [line: 128] [tick_sec: 0]: ------------------------------------------------------
+[fun: _usage] [line: 129] [tick_sec: 0]: 	 trace_server version: 1.0.7
+[fun: _usage] [line: 130] [tick_sec: 0]: 	 current date: 2019-01-02 17:54:05 0
+[fun: _usage] [line: 131] [tick_sec: 0]: 	    thread pool size: 1024
+[fun: _usage] [line: 132] [tick_sec: 0]: 	         server port: 9110
+[fun: _usage] [line: 133] [tick_sec: 0]: 	      client timeout: 10 sec
+[fun: _usage] [line: 134] [tick_sec: 0]: 	    listen max count: 65530
+[fun: _usage] [line: 136] [tick_sec: 0]: 	    server pool mode: enable
+[fun: _usage] [line: 137] [tick_sec: 0]: 	      server workers: 1024
+[fun: _usage] [line: 138] [tick_sec: 0]: 	 server worker queue: 32
+[fun: _usage] [line: 140] [tick_sec: 0]: ------------------------------------------------------
+[fun: _usage] [line: 141] [tick_sec: 0]: 
+[fun: main] [line: 174] [tick_sec: 11]: 
+[fun: main] [line: 175] [tick_sec: 11]: ------ loop start ------
+[fun: _display_status] [line: 98] [tick_sec: 11]: 
+[fun: _display_status] [line: 99] [tick_sec: 11]: -----------------------------------------------
+[fun: _display_status] [line: 100] [tick_sec: 11]: - thread pool workers: 1024
+[fun: _display_status] [line: 102] [tick_sec: 11]:        server workers: 1024
+[fun: _display_status] [line: 103] [tick_sec: 11]: -    server pool mode: enable
+[fun: _display_status] [line: 104] [tick_sec: 11]:           client wait: 0
+[fun: _display_status] [line: 105] [tick_sec: 11]:       client handling: 0
+[fun: _display_status] [line: 109] [tick_sec: 11]: -----------------------------------------------
+[fun: _display_status] [line: 110] [tick_sec: 11]: 
+[fun: _repeat_init] [line: 30] [tick_sec: 11]: repeat init server ... 0
+[fun: _create_server] [line: 21] [tick_sec: 11]: create server success.

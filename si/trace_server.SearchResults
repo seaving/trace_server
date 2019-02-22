@@ -1,0 +1,63 @@
+---- free Matches (62 in 23 files) ----
+Buffer.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * free the returned value.  The EOL is not included in the returned string.
+Bufferevent.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * conjunction with bufferevent_incref(). This will free up all data associated
+Bufferevent.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):   @param free_context A function to use to free the filter context when
+Bufferevent.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    Note: 'cfg' is not currently reference-counted; it is not safe to free it
+Client_option_struct.c (e:\work\share\skyroam\log_project\trace_server\src):		free(client_option);
+Dns.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  @param evdns_base the evdns base to free
+Dns.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):/** Close down a DNS server port, and free associated structures. */
+Dns.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):   Send back a response to a DNS request, and free the request structure.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * longer want the event, free it with event_free().
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  Deallocate all memory associated with an event_base, and free the base.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  Note that this function will not close any fds or free any memory passed
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):  case--you'll need to free that on your own if you want it to go away.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): free to allocate memory.  Passing replacements for those functions to
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): have replaced those functions, it will not be appropriate to free() memory
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): then later free it using your provided free_fn.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): @param free_fn A replacement for free.
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    This function does not free developer-controlled resources like
+Event.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):    resources like global locks that there is no other way to free.
+Event_server_tpool.c (e:\work\share\skyroam\log_project\trace_server\src):			free(tpool->workers);
+Event_server_tpool.c (e:\work\share\skyroam\log_project\trace_server\src):		free(tpool);
+Event_server_worker.c (e:\work\share\skyroam\log_project\trace_server\src):		free(job);
+Event_server_worker.c (e:\work\share\skyroam\log_project\trace_server\src):			free(worker);
+Evserver_client.c (e:\work\share\skyroam\log_project\trace_server\src):		free(client);
+Fifo.c (e:\work\share\skyroam\log_project\trace_server\src):		FIFO_DEBUG(fifo, "fifo_put", "no free space!(dl:%d, fl:%d)", data_len, len);
+File.c (e:\work\share\skyroam\log_project\trace_server\src):	if (f && f->file) free(f->file);
+File.c (e:\work\share\skyroam\log_project\trace_server\src):	if (f) free(f);
+Http.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * attempt to free or remove any connections, sockets or listeners
+Http.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * The user needs to either free the request explicitly or call
+Http.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * Can be used to tell libevent to free the connection object after
+Http_request.c (e:\work\share\skyroam\log_project\trace_server\src):			free(httpRequest->context_buf);
+Http_request.c (e:\work\share\skyroam\log_project\trace_server\src):		free(httpRequest);
+Http_request.c (e:\work\share\skyroam\log_project\trace_server\src):		free(httpRequest->context_buf);
+Http_struct.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):/** The request obj owns the evhttp connection and needs to free it */
+Http_struct.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):/** The request object is owned by the user; the user must free it */
+Kernel_list.h (e:\work\share\skyroam\log_project\trace_server\src): * This program is free software; you can redistribute it and/or
+Libmacro.c (e:\work\share\skyroam\log_project\trace_server\src): * This program is free software; you can redistribute it and/or
+Libmacro.c (e:\work\share\skyroam\log_project\trace_server\src):    free(vec->iov_base);
+Libmacro.c (e:\work\share\skyroam\log_project\trace_server\src):    free(vec);
+Libmacro.h (e:\work\share\skyroam\log_project\trace_server\src): * This program is free software; you can redistribute it and/or
+Queue.c (e:\work\share\skyroam\log_project\trace_server\src): * This program is free software; you can redistribute it and/or
+Queue.c (e:\work\share\skyroam\log_project\trace_server\src):        	free(item->data.iov_base);
+Queue.c (e:\work\share\skyroam\log_project\trace_server\src):    free(item);
+Queue.c (e:\work\share\skyroam\log_project\trace_server\src):    free(q);
+Queue.h (e:\work\share\skyroam\log_project\trace_server\src): * This program is free software; you can redistribute it and/or
+Thread.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):	void (*free)(void *lock, unsigned locktype);
+Thread.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2):	/** Function to free a condition variable. */
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):		free(work);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):        free(_tpool);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):        free(_tpool);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):        free(_tpool);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):        free(_tpool);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):			free(_tpool->thr_id);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):			free(_tpool);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):    free(_tpool->thr_id);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):        free(member);
+Threadpool.c (e:\work\share\skyroam\log_project\trace_server\src):    free(_tpool);
+Trace_server.c (e:\work\share\skyroam\log_project\trace_server\src):		free(msg);
+Trace_server.c (e:\work\share\skyroam\log_project\trace_server\src):		free(recv_buffer);
+Trace_server.c (e:\work\share\skyroam\log_project\trace_server\src):        free(param);
+Trace_server.c (e:\work\share\skyroam\log_project\trace_server\src):	free (strings); 
+User_string.c (e:\work\share\skyroam\log_project\trace_server\src):		free(m);
+Util.h (e:\work\share\skyroam\log_project\trace_server\libevent-2.1.8-stable\include\event2): * (This string will _NOT_ be copied internally. Do not free it while any
